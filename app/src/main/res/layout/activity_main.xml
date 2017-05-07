@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asepmohamadnoor.belajar_android.MainActivity">
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/baru"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets Eat"
+        style="@style/Title"
+        android:layout_below="@+id/gambar1"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:id="@+id/scrollView2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollView2"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FFCCFFFF"
+                android:text="Jadiii sesuai postingan yang ini marilah kita review kue penganten nya :D
+
+setelah berputar ke seluruh penjuru OL Shop yang jualan kue, tadinya saya udah yakin mau pake salah satu OL Shop yang berlokasi di bandung itu sempet janjian buat test cake juga eh ternyata ribet aja sodara2 jadi weh mamah keburu ilfeel dan batal lha pesen kue disana, yaa mentok lah kita, akhirnya karena waktu nikahan dela juga wedding cupcake nya juga enak dan berlokasi di sukabumi datanglah saya dan memey dan buyeni ke toko kue aneka itu, pas lagi ngobrol2 eh ternyata mereka juga lagi buat wedding cake buat acara besok, di tunjukin foto contohnya dan saya langsung jatuh cinta dan pas kebeneran kue nya pun udah ada yg mateng langsung lah kita icip2 dann makin jatuuh cinta lagi sama rasanya yg enaksss apalagi memey dan buyeni pun suka, makin yakin deh mau pake kue itu aja, telepon lah mamah untuk dateng ke toko, ga lama mamah dateng, di tunjukin foto kue nya dan nyicipin kue nya mamah pun setujuu, langsung obrol2 maunya saya gimana ga lama langsung sepakat (secara tinggal H-7 juga) dan di bayarlah DP (sama mamah cencunyah ;p).. phiuuhh selesai lha pencarian wedding cake.."/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
